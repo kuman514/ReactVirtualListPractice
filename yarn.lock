@@ -282,7 +282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.20.7":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.7":
   version: 7.22.10
   resolution: "@babel/runtime@npm:7.22.10"
   dependencies:
@@ -2303,6 +2303,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-virtualized@npm:^9":
+  version: 9.21.22
+  resolution: "@types/react-virtualized@npm:9.21.22"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/react": "*"
+  checksum: 1c3f8e3f93f3ff8fc80ea0cbf24507cfd40e51b2503a6fbae323b0aa39f192d56d83b9007897e787c2810398b84bfcdf90364f3517c3bc4679cee69462e4d4c6
+  languageName: node
+  linkType: hard
+
 "@types/react-window@npm:^1":
   version: 1.8.5
   resolution: "@types/react-window@npm:1.8.5"
@@ -3168,6 +3178,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^1.0.4":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -3500,6 +3517,16 @@ __metadata:
   version: 0.5.16
   resolution: "dom-accessibility-api@npm:0.5.16"
   checksum: 005eb283caef57fc1adec4d5df4dd49189b628f2f575af45decb210e04d634459e3f1ee64f18b41e2dcf200c844bc1d9279d80807e686a30d69a4756151ad248
+  languageName: node
+  linkType: hard
+
+"dom-helpers@npm:^5.1.3":
+  version: 5.2.1
+  resolution: "dom-helpers@npm:5.2.1"
+  dependencies:
+    "@babel/runtime": ^7.8.7
+    csstype: ^3.0.2
+  checksum: 863ba9e086f7093df3376b43e74ce4422571d404fc9828bf2c56140963d5edf0e56160f9b2f3bb61b282c07f8fc8134f023c98fd684bddcb12daf7b0f14d951c
   languageName: node
   linkType: hard
 
@@ -6147,7 +6174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -6257,6 +6284,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-lifecycles-compat@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "react-lifecycles-compat@npm:3.0.4"
+  checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
+  languageName: node
+  linkType: hard
+
 "react-refresh@npm:^0.14.0":
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
@@ -6354,6 +6388,7 @@ __metadata:
     "@types/react-dom": ^18.0.7
     "@types/react-is": ^17.0.3
     "@types/react-router-dom": ^5.3.3
+    "@types/react-virtualized": ^9
     "@types/react-window": ^1
     "@types/styled-components": ^5.1.26
     "@typescript-eslint/eslint-plugin": latest
@@ -6376,6 +6411,7 @@ __metadata:
     react-dom: ^18.2.0
     react-is: ^18.2.0
     react-router-dom: ^6.4.3
+    react-virtualized: ^9.22.5
     react-window: ^1.8.9
     styled-components: ^5.3.6
     typescript: "*"
@@ -6384,6 +6420,23 @@ __metadata:
     zustand: ^4.2.0
   languageName: unknown
   linkType: soft
+
+"react-virtualized@npm:^9.22.5":
+  version: 9.22.5
+  resolution: "react-virtualized@npm:9.22.5"
+  dependencies:
+    "@babel/runtime": ^7.7.2
+    clsx: ^1.0.4
+    dom-helpers: ^5.1.3
+    loose-envify: ^1.4.0
+    prop-types: ^15.7.2
+    react-lifecycles-compat: ^3.0.4
+  peerDependencies:
+    react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
+    react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
+  checksum: 01f5ed8d8db7c831d592172946c2b61fcb409bf6cbc84500468f12d6cf9b7e60453e332fac02dd608480d23cb14421f7f17716393e623e83bb10a7763fad9e2c
+  languageName: node
+  linkType: hard
 
 "react-window@npm:^1.8.9":
   version: 1.8.9

@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.2.7"],\
             ["@types/react-is", "npm:17.0.4"],\
             ["@types/react-router-dom", "npm:5.3.3"],\
+            ["@types/react-virtualized", "npm:9.21.22"],\
             ["@types/react-window", "npm:1.8.5"],\
             ["@types/styled-components", "npm:5.1.26"],\
             ["@typescript-eslint/eslint-plugin", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:6.3.0"],\
@@ -60,6 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
             ["react-router-dom", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:6.14.2"],\
+            ["react-virtualized", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:9.22.5"],\
             ["react-window", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:1.8.9"],\
             ["styled-components", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:5.3.11"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
@@ -3846,6 +3848,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/react-virtualized", [\
+        ["npm:9.21.22", {\
+          "packageLocation": "./.yarn/cache/@types-react-virtualized-npm-9.21.22-dc2f5b2466-1c3f8e3f93.zip/node_modules/@types/react-virtualized/",\
+          "packageDependencies": [\
+            ["@types/react-virtualized", "npm:9.21.22"],\
+            ["@types/prop-types", "npm:15.7.5"],\
+            ["@types/react", "npm:18.2.19"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/react-window", [\
         ["npm:1.8.5", {\
           "packageLocation": "./.yarn/cache/@types-react-window-npm-1.8.5-75b50e71b4-5f519e1402.zip/node_modules/@types/react-window/",\
@@ -4911,6 +4924,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["clsx", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/clsx-npm-1.2.1-77792dc182-30befca801.zip/node_modules/clsx/",\
+          "packageDependencies": [\
+            ["clsx", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["color-convert", [\
         ["npm:1.9.3", {\
           "packageLocation": "./.yarn/cache/color-convert-npm-1.9.3-1fe690075e-fd7a64a17c.zip/node_modules/color-convert/",\
@@ -5313,6 +5335,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/dom-accessibility-api-npm-0.5.16-d3e2310666-005eb283ca.zip/node_modules/dom-accessibility-api/",\
           "packageDependencies": [\
             ["dom-accessibility-api", "npm:0.5.16"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dom-helpers", [\
+        ["npm:5.2.1", {\
+          "packageLocation": "./.yarn/cache/dom-helpers-npm-5.2.1-b38bb4470b-863ba9e086.zip/node_modules/dom-helpers/",\
+          "packageDependencies": [\
+            ["dom-helpers", "npm:5.2.1"],\
+            ["@babel/runtime", "npm:7.22.10"],\
+            ["csstype", "npm:3.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8559,6 +8592,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-lifecycles-compat", [\
+        ["npm:3.0.4", {\
+          "packageLocation": "./.yarn/cache/react-lifecycles-compat-npm-3.0.4-d5e285a39e-a904b0fc0a.zip/node_modules/react-lifecycles-compat/",\
+          "packageDependencies": [\
+            ["react-lifecycles-compat", "npm:3.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-refresh", [\
         ["npm:0.14.0", {\
           "packageLocation": "./.yarn/cache/react-refresh-npm-0.14.0-78ef5eeb73-dc69fa8c99.zip/node_modules/react-refresh/",\
@@ -8710,6 +8752,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.2.7"],\
             ["@types/react-is", "npm:17.0.4"],\
             ["@types/react-router-dom", "npm:5.3.3"],\
+            ["@types/react-virtualized", "npm:9.21.22"],\
             ["@types/react-window", "npm:1.8.5"],\
             ["@types/styled-components", "npm:5.1.26"],\
             ["@typescript-eslint/eslint-plugin", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:6.3.0"],\
@@ -8732,6 +8775,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
             ["react-router-dom", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:6.14.2"],\
+            ["react-virtualized", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:9.22.5"],\
             ["react-window", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:1.8.9"],\
             ["styled-components", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:5.3.11"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
@@ -8740,6 +8784,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["zustand", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:4.4.1"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["react-virtualized", [\
+        ["npm:9.22.5", {\
+          "packageLocation": "./.yarn/cache/react-virtualized-npm-9.22.5-be95b8e1a8-01f5ed8d8d.zip/node_modules/react-virtualized/",\
+          "packageDependencies": [\
+            ["react-virtualized", "npm:9.22.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:9.22.5", {\
+          "packageLocation": "./.yarn/__virtual__/react-virtualized-virtual-84b2aff0fd/0/cache/react-virtualized-npm-9.22.5-be95b8e1a8-01f5ed8d8d.zip/node_modules/react-virtualized/",\
+          "packageDependencies": [\
+            ["react-virtualized", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:9.22.5"],\
+            ["@babel/runtime", "npm:7.22.10"],\
+            ["@types/react", "npm:18.2.19"],\
+            ["@types/react-dom", "npm:18.2.7"],\
+            ["clsx", "npm:1.2.1"],\
+            ["dom-helpers", "npm:5.2.1"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:980852c9fd92cf5f25d9d73e7a35e01e238954079614aacc937b45e2a0a9606329cee386d6e17ae0b3d457ca5d3d420c9802bea2e3dc1a9a3c7b89d33d43ef1d#npm:18.2.0"],\
+            ["react-lifecycles-compat", "npm:3.0.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["react-window", [\

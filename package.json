@@ -26,6 +26,7 @@
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "react-router-dom": "^6.4.3",
+    "react-virtualized": "^9.22.5",
     "react-window": "^1.8.9",
     "styled-components": "^5.3.6",
     "zustand": "^4.2.0"
@@ -36,6 +37,7 @@
     "@types/prettier": "^2",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "@types/react-virtualized": "^9",
     "@types/react-window": "^1",
     "@typescript-eslint/eslint-plugin": "latest",
     "@vitejs/plugin-react": "^2.2.0",
